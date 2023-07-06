@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "952755535450",
+    "project_id": "fir-apps12",
+    "storage_bucket": "fir-apps12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:952755535450:android:59a3e0efef7d1689592263",
+        "android_client_info": {
+          "package_name": "com.cibertec.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "952755535450-h0av6k2s7gfogq2npctvldno7fn92m9g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1bFgeGObGYz2gRRGV5YO49ZEZbTZsgNA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "952755535450-h0av6k2s7gfogq2npctvldno7fn92m9g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:952755535450:android:ed80d1c2285d6fcc592263",
+        "android_client_info": {
+          "package_name": "com.cibertec.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "952755535450-h0av6k2s7gfogq2npctvldno7fn92m9g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1bFgeGObGYz2gRRGV5YO49ZEZbTZsgNA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "952755535450-h0av6k2s7gfogq2npctvldno7fn92m9g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProjectGlobalMovie"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+
+
+        <activity
+            android:name=".Registros.RegisterEditDulcesActivity_cliente"
+            android:exported="false" />
+
+        <activity
+            android:name=".presentation.MenuVentas"
+            android:exported="false" />
+
+        <activity
+            android:name=".Registros.RegisterVentaActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".Registros.RegisterVentaClienteActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".Listados.venta_listado"
+            android:exported="false" />
+        <activity
+            android:name=".Listados.venta_listado_cliente"
+            android:exported="false" />
+
+        <activity
+            android:name=".Detalle.DetalleVenta"
+            android:exported="false" />
+
+
+        <activity
+            android:name=".Listados.dulces_listado_cliente"
+            android:exported="false" />
+        <activity
+            android:name=".Listados.dulces_listado"
+            android:exported="false" />
+        <activity
+            android:name=".Listados.favorito_listado_admin"
+            android:exported="false" />
+
+        <activity
+            android:name=".Registros.RegisterEditDulcesActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".Registros.RegisterEditFavoritoAdminActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".Registros.RegisterEditFavoritoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Registros.RegisterEditPeliculaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Listados.venta_listado"
+            android:exported="false" />
+        <activity
+            android:name=".Listados.pelicula_listado"
+            android:exported="false" />
+        <activity
+            android:name=".Listados.favorito_listado"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.PresenIntegrantes"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.MenuInvitado"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.Inicio"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".presentation.MainActivity_Logeo"
+            android:exported="false" />
+        <activity
+            android:name=".Detalle.DetalleDulce"
+            android:exported="false" />
+        <activity
+            android:name=".Detalle.DetalleLocal"
+            android:exported="false" />
+        <activity
+            android:name=".Detalle.DetalleFavorito"
+            android:exported="false" />
+        <activity
+            android:name=".Listados.LocalListado"
+            android:exported="false" />
+        <activity
+            android:name=".Registros.RegistroLocales"
+            android:exported="false" />
+        <activity
+            android:name=".Registros.RegisterEditActivity"
+            android:exported="true" />
+        <activity
+            android:name=".presentation.LogueoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".presentation.MainActivity"
+            android:exported="true" />
+
+        <meta-data
+
+            android:name="com.google.android.geo.API_KEY"
+
+            android:value="AIzaSyAFhUBffqnfepyUPT45k5Mg6HQT6KHlANM">
+
+        </meta-data>
+
+    </application>
+
+
+</manifest>
